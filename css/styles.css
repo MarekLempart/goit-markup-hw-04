@@ -487,3 +487,12 @@ img {
     text-align: start;
     margin-bottom: 16px;
 }
+
+.logo-container {
+    max-width: 264px;
+}
+
+.socials-container {
+    max-width: 208px;
+    margin-left: 120px;
+}
