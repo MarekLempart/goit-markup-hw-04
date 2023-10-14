@@ -64,11 +64,10 @@ img {
 /*Header Styles*/
 
 .page-header{
-    border-bottom: 1px solid #e7e9fc;
+    outline: 1px solid var(--light-color);
     box-shadow: 0px 2px 1px #2E2F4214,
         0px 1px 1px #2E2F4229,
         0px 1px 6px #2E2F4214;
-    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -126,7 +125,7 @@ img {
 .address-link {
     color: var(--text-color);
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     cursor: pointer;
@@ -225,7 +224,6 @@ img {
 /*Studio Hero Section no. 1 Styles*/
 
 .hero-section {
-    display: flex;
     background-color: var(--hero_background-color);
     padding: 188px 0px;
     margin: 0 auto;
@@ -275,7 +273,6 @@ img {
 .section-objectives {
     padding: 120px 0;
     background-color: var(--white_background-color);
-    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -330,7 +327,6 @@ img {
 .doing-section {
     background-color: var(--white_background-color);
     padding-bottom: 120px;
-    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -343,7 +339,6 @@ img {
 .team-section {
     background: #F4F4FD;
     padding: 120px 0;
-    max-width: 1400px;
     margin: 0 auto;
 }
 .list-team {
@@ -416,7 +411,6 @@ img {
 .section-customers {
     background-color: var(--white_background-color);
     padding: 120px 0;
-    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -454,7 +448,6 @@ img {
 }
 
 .customers-icon-box:hover {
-    stroke: var(--pressed_state-color);
     fill: var(--pressed_state-color);
 }
 
@@ -469,7 +462,6 @@ img {
 .footer {
     background-color: var(--hero_background-color);
     padding: 100px 0;
-    max-width: 1400px;
     margin: 0 auto;
 }
 .footer-navigation-logo {
@@ -514,7 +506,6 @@ img {
 
 .socials-container {
     max-width: 208px;
-    margin-left: 120px;
 }
 
 .list-social-media-footer {
