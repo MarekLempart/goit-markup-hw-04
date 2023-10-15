@@ -234,7 +234,7 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 1400px;
+    max-width: 1440px;
 }
 
 .main-headline {
@@ -447,7 +447,8 @@ img {
     fill: currentColor;
 }
 
-.customers-icon-box:hover {
+.customers-icon-box:hover,
+.customers-icon-box:focus {
     fill: var(--pressed_state-color);
 }
 
