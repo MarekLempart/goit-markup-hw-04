@@ -400,12 +400,12 @@ img {
     background-color: var(--pressed_state-color);
 }
 
-.socials-icon-box {
+/*.socials-icon-box {
     fill: var(--light-color);
     display: block;
     width: 16px;
     height: 16px;
-}
+}*/
 
 /*Studio Customers Section no. 5 Styles*/
 
@@ -531,12 +531,12 @@ img {
     align-items: center;
 }
 
-.socials-icon-box-footer {
+/*.socials-icon-box-footer {
     fill: var(--light-color);
     display: block;
-    width: 24px;
-    height: 24px;
-}
+    width: 16px;
+    height: 16px;
+}*/
 
 .footer-socials-link:hover,
 .footer-socials-link:focus {
